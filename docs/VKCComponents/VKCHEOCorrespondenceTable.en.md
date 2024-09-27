@@ -8,6 +8,20 @@ The VketCloudSDK includes the following types of components:
 - **Attribute Component**: Components that assign attributes to items, nodes, objects, etc.
 - **Legacy Component (Deprecated)**: Components from older versions.
 
+
+```mermaid
+classDiagram
+    Scene "1" *--> "1" Setting
+    Scene "1" *--> "0..N" Item
+    Item "1" *--> "0..N" Node: If type is Field or Object
+    Item "1" o--> "0..N" Attribute
+    Node "1" o--> "0..N" Attribute
+
+    class Item {
+        type
+    }
+```
+
 ## Setting Components
 
 | Category | Component Name (-SDK9.X) | Component Name (SDK10.X-SDK12.3) | Component Name (SDK13.X-) |

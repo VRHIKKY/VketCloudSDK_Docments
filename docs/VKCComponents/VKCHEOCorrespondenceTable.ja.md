@@ -8,6 +8,19 @@ VketCloudSDKには、以下のような種類のコンポーネントが存在�
 - **Attribute 項目**: Item/Node/Object等に、属性を与えるコンポーネント
 - **Legacy 項目（非推奨）**: 旧バージョンのコンポーネント
 
+```mermaid
+classDiagram
+    シーン "1" *--> "1" Setting
+    シーン "1" *--> "0..N" Item
+    Item "1" *--> "0..N" Node: type が Field または Object の場合
+    Item "1" o--> "0..N" Attribute
+    Node "1" o--> "0..N" Attribute
+    
+    class Item {
+        type
+    }
+```
+
 ## Setting 項目
 
 | 大項目    | コンポーネント名 (-SDK9.X)  | コンポーネント名 (SDK10.X-SDK12.3) | コンポーネント名 (SDK13.X-) |
