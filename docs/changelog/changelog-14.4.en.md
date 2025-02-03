@@ -1,5 +1,14 @@
 # SDK Manual Change Log - Ver 14.4
 
+## February 7 2025 Update
+
+## February 7 2025 - Added Page
+
+- World Making Guide
+    - [ReplaceTexture Unexpectedly Replaces Other Textures](https://vrhikky.github.io/VketCloudSDK_Documents/14.4/en/WorldMakingGuide/ReplaceTexture.html)
+
+---
+
 ## January 31 2025 Update
 
 ## January 31 2025 - Added Page

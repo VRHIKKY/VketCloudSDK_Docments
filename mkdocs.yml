@@ -130,6 +130,7 @@ plugins:
             How to check the Chrome Developer Tools console on iPhone alone: iPhone単体でChromeのデベロッパーツールのコンソールを確認する方法
             Activity With Canvas UI: CanvasUI表示機能付きアクティビティクラスを作る
             Binary Output Error: バイナリ出力に失敗
+            ReplaceTexture Unexpectedly Replaces Other Textures: ReplaceTextureでテクスチャの差し替えが正常に出来ない
             # ActionNodeGraph: アクションノードグラフ
             # トラブルシューティング
             Trouble shooting: トラブルシューティング
@@ -361,6 +362,7 @@ nav:
     - Activity With Canvas UI: WorldMakingGuide/ActivityWithCanvasUI.md
     - Binary Output Error: WorldMakingGuide/BinaryOutputError.md
     - How to check the Chrome Developer Tools console on iPhone alone : WorldMakingGuide/iPhoneConsole.md
+    - ReplaceTexture Unexpectedly Replaces Other Textures : WorldMakingGuide/ReplaceTexture.md
 - Trouble shooting:
     - SDK does not appear after install : troubleshooting/InstallingDeeplink.md
     - Trouble shooting - General Checklist: troubleshooting/GeneralChecklist.md

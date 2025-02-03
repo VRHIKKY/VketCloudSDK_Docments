@@ -1,5 +1,14 @@
 # SDK Manual Change Log - Ver 14.4
 
+## 2025年2月7日更新
+
+## 2025年2月7日 - 追加されたページ
+
+- ワールド制作ガイド
+    - [ReplaceTextureでテクスチャの差し替えが正常に出来ない](https://vrhikky.github.io/VketCloudSDK_Documents/14.4/WorldMakingGuide/ReplaceTexture.html)
+
+---
+
 ## 2025年1月31日更新
 
 ## 2025年1月31日 - 追加されたページ
